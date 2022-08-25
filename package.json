@@ -10,6 +10,16 @@
     "astro": "astro"
   },
   "devDependencies": {
+    "@astrojs/react": "^1.0.0",
+    "@astrojs/tailwind": "^1.0.0",
+    "@babel/core": "^7.18.13",
+    "@types/react": "^18.0.10",
+    "@types/react-dom": "^18.0.5",
     "astro": "^1.0.8"
+  },
+  "dependencies": {
+    "@astrojs/react": "^1.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   }
 }

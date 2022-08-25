@@ -4,15 +4,47 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1 >Welcome to <span class="text-gradient">Astro</span></h1>
+		<h1>Bienvenido a<span class="text-gradient"> Mi Wiki</span></h1>
+
+		<p>
+			Wiki en la que se pretende responder situaciones y dudas sobre el
+			proceso de entrega y recepción
+		</p>
+
+		<div class="options">
+			<a class="menu" href="intro-tutorial"> Introducción</a>
+			<a class="menu" href="carpetas-comprimidas">
+				Carpetas comprimidas</a
+			>
+			<a class="menu" href="intro-tutorial"> Archivos dañados</a>
+			<a class="menu" href="intro-tutorial"> Multimedia</a>
+		</div>
 	</main>
 </Layout>
 
 <style>
 	:root {
-		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
+		--astro-gradient: linear-gradient(0deg, #9658b5, rgb(161, 0, 11));
 	}
-
+	.options {
+		padding-top: 10px;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+		flex-wrap: wrap;
+		align-content: space-around;
+		justify-content: center;
+		align-items: center;
+	}
+	a.menu {
+		color: #4f39fa;
+		margin-top: 20px;
+		font-weight: bolder;
+		border-bottom: 1px solid salmon;
+		width: 50%;
+	}
 	h1 {
 		margin: 2rem 0;
 	}
@@ -20,7 +52,7 @@ import Layout from "../layouts/Layout.astro";
 	main {
 		margin: auto;
 		padding: 1em;
-		max-width: 60ch;
+		max-width: 80ch;
 	}
 
 	.text-gradient {

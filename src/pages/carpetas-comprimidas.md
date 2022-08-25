@@ -1,11 +1,11 @@
 ---
 layout: ../layouts/Layout-post.astro
 
-title: Introducción
-description: Bienvenido al proceso de entrega y recepción
+title: Carpetas comprimidas
+description: ¿Como o donde guardar las carpetas comprimidas?
 ---
 
-# **Introducción**
+# **Carpetas comprimidas**
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about
 StackEdit, you can read me. If you want to play with Markdown, you can edit me.
